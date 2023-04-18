@@ -59,7 +59,7 @@ const Coins = () => {
           <Radio  value={"eur"}>EUR</Radio>
         </HStack>
       </RadioGroup>
-      <HStack wrap={"wrap"}>
+      <HStack wrap={"wrap"} justifyContent={"space-evenly"}>
         {
           coins.map((i) => (
             <CoinsCard id={i.id} key= {i.id} name= {i.name} price={i.current_price} img = {i.image} rank = {i.trust_score_rank} currencySymbol={currencySymbol}/>
@@ -67,7 +67,7 @@ const Coins = () => {
         }
       </HStack>
          
-         <HStack w={50}>
+         <HStack w={"full"} overflowX={"auto"}>
           {
 
             btn.map((i, index) => (

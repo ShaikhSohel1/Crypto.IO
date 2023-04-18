@@ -18,7 +18,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/coins" element={<Coins />} />
       <Route path="/exchanges" element={<Exchanges />} />
-      <Route path="/coindetails/:id" element={<CoinDetails />} />
+      <Route path="/coins/:id" element={<CoinDetails />} />
       {/* <Route path="*" element={<h1>404 Not Found</h1>} /> */}
 
 
