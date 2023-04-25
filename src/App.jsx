@@ -5,6 +5,7 @@ import Home from './componenets/Home'
 import Coins from './componenets/Coins'
 import Exchanges from './componenets/Exchanges'
 import CoinDetails from './componenets/CoinDetails'
+import Footer from './componenets/Footer'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
 
 
     </Routes>
+    <Footer/>
     
   </Router>
 )

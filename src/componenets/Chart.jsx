@@ -23,7 +23,7 @@ const Chart = ({arr=[],currency,days}) => {
        prices.push(arr[i][1]);
     }
     
-    console.log(date);
+    
 
 
     const data =  {
